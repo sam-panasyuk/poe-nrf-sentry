@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7ae60632-7395-4f0c-8411-4c80259d4176")
+	(paper "A4")
+	(title_block
+		(title "${MYTITLE} ${MYPN}")
+		(date "${MYDATE} ${MYYEAR}")
+		(rev "${MYREV}")
+		(company "${MYCOMPANY}")
+		(comment 1 "www.andium.com")
+	)
+	(lib_symbols)
+)
