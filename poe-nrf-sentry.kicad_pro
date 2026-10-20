@@ -1770,7 +1770,7 @@
         "uuid": "b1cff413-89c4-4f13-9638-ac703f47b9c7"
       }
     ],
-    "used_designators": "POERST2,SDA1,POEINT2,PSDI2,PSCS2,PSCK2,TP1,J6-7,PSDO1-4,U6,U15,SCL1,C66-81,SW2,FB1,GND13,#PWR5-6,#PWR8-12,#PWR47,#PWR142-143,#PWR146-159,#PWR200,D1-5,R2-3,R54-56",
+    "used_designators": "#PWR160-165,C82-91",
     "variants": []
   },
   "sheets": [
