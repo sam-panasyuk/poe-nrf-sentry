@@ -4196,7 +4196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "andium-resistors:R_1k_1%_0402"
+		(symbol "andium-resistors:R_182k_1%_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4218,7 +4218,7 @@
 					)
 				)
 			)
-			(property "Value" "1k"
+			(property "Value" "182k"
 				(at 2.54 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4239,7 +4239,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4250,7 +4250,7 @@
 					)
 				)
 			)
-			(property "Description" "R_1k_1%_0402"
+			(property "Description" "R_182k_1%_0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4261,7 +4261,7 @@
 					)
 				)
 			)
-			(property "MPN" "CR0402-FX-1001GLF"
+			(property "MPN" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4272,7 +4272,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Bourns"
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4316,7 +4316,7 @@
 					)
 				)
 			)
-			(symbol "R_1k_1%_0402_0_1"
+			(symbol "R_182k_1%_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -4329,7 +4329,180 @@
 					)
 				)
 			)
-			(symbol "R_1k_1%_0402_1_1"
+			(symbol "R_182k_1%_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "andium-resistors:R_1k02_1%_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k02"
+				(at 2.54 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "R_1k02_1%_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RC0402FR-071K02L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitute" "YES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPN" "C163485"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1k02_1%_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k02_1%_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -4503,179 +4676,6 @@
 				)
 			)
 			(symbol "R_20k5_1%_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "andium-resistors:R_255k_1%_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "255k"
-				(at 2.54 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "R_255k_1%_0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CR0402-FX-2553GLF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Substitute" "YES"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPN" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Verified" "NO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_255k_1%_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_255k_1%_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -6417,6 +6417,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 58.166 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "674a67ba-1b12-4a53-ae84-273fe21ae851")
+	)
 	(text "12V => 3V3 DCDC"
 		(exclude_from_sim no)
 		(at 124.968 31.242 0)
@@ -6439,6 +6450,16 @@
 			(justify left bottom)
 		)
 		(uuid "90c09845-d4a2-40fe-8acb-28b27afdac46")
+	)
+	(text "EN = 1.3V, Enables at 6Vin"
+		(exclude_from_sim no)
+		(at 99.314 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9eea0ab8-909e-4e84-bd45-72f1f1d1eea0")
 	)
 	(junction
 		(at 115.57 50.8)
@@ -6489,16 +6510,16 @@
 		(uuid "1987ee57-d3af-4e28-8a76-f8ffb8147d3d")
 	)
 	(junction
+		(at 102.87 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34000f2b-2580-4b67-b234-307d36596584")
+	)
+	(junction
 		(at 97.79 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "353e66f5-4d29-49dd-8a5f-860554193f20")
-	)
-	(junction
-		(at 45.72 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d9d33d-2242-41a0-837b-ae87a58a91a2")
 	)
 	(junction
 		(at 161.29 45.72)
@@ -6523,6 +6544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "574b9155-6cb8-4c52-8b3c-1589574145c6")
+	)
+	(junction
+		(at 102.87 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b97b266-4940-4863-85ce-6ed69656a34c")
 	)
 	(junction
 		(at 201.93 45.72)
@@ -6636,7 +6663,7 @@
 		(at 48.26 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed309bd9-411e-4f0d-bde3-655e23bffeae")
+		(uuid "e7226534-f996-4170-bc3d-08aa6071f678")
 	)
 	(junction
 		(at 191.77 45.72)
@@ -6665,10 +6692,6 @@
 		(uuid "3160b651-fcaf-4b83-b232-2fbed56f1bf4")
 	)
 	(no_connect
-		(at 66.04 134.62)
-		(uuid "4059f4a4-e445-4cbc-b976-0f3fa8a59d38")
-	)
-	(no_connect
 		(at 53.34 111.76)
 		(uuid "4d56902c-bd3d-47d0-8df4-bbb0efed7d63")
 	)
@@ -6693,24 +6716,12 @@
 		(uuid "70e6dc8f-a1fa-467d-993f-1f3c0d028e79")
 	)
 	(no_connect
-		(at 66.04 137.16)
-		(uuid "95c76aa6-8cbd-4281-81ca-a63cd7b38134")
-	)
-	(no_connect
 		(at 66.04 114.3)
 		(uuid "967a877d-3abf-436e-a4ec-1d95b3fe9d4f")
 	)
 	(no_connect
 		(at 53.34 139.7)
 		(uuid "97229b4c-734b-43c6-9335-d5b89f11705a")
-	)
-	(no_connect
-		(at 53.34 137.16)
-		(uuid "a1d857f8-8a34-435e-9bb5-44f6ff4dfe5b")
-	)
-	(no_connect
-		(at 53.34 134.62)
-		(uuid "a455c9b9-89b8-4cbb-9af0-9614976a4e22")
 	)
 	(no_connect
 		(at 66.04 101.6)
@@ -6733,6 +6744,24 @@
 		(uuid "f2791299-e649-423b-8909-36b2b58ae54a")
 	)
 	(bus_entry
+		(at 82.55 132.08)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117162cf-f02a-441c-a91a-2a79fead33af")
+	)
+	(bus_entry
+		(at 36.83 132.08)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c05c05-4d92-4353-a54c-83efcdf5e992")
+	)
+	(bus_entry
 		(at 36.83 144.78)
 		(size 2.54 2.54)
 		(stroke
@@ -6742,6 +6771,15 @@
 		(uuid "4de4a4d6-8042-4a9c-94b6-687411149a02")
 	)
 	(bus_entry
+		(at 36.83 134.62)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705e4906-be9e-4fc6-8017-1e3ce6c3c178")
+	)
+	(bus_entry
 		(at 36.83 147.32)
 		(size 2.54 2.54)
 		(stroke
@@ -6749,6 +6787,15 @@
 			(type default)
 		)
 		(uuid "8cce33e4-f431-476e-9752-6904af6e8dbf")
+	)
+	(bus_entry
+		(at 82.55 134.62)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c299e8-4407-4e0e-97f3-2e0e203ce20b")
 	)
 	(bus_entry
 		(at 36.83 142.24)
@@ -6818,6 +6865,16 @@
 		)
 		(uuid "075dc701-cd0a-430f-ac1c-26c5d38a6f7b")
 	)
+	(bus
+		(pts
+			(xy 82.55 132.08) (xy 82.55 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d67dec-76b7-4efe-a05e-3c8dfb28c011")
+	)
 	(wire
 		(pts
 			(xy 90.17 123.19) (xy 90.17 121.92)
@@ -6830,6 +6887,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 149.86) (xy 53.34 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba57551-7fa7-495a-9020-f08230fe1392")
+	)
+	(wire
+		(pts
 			(xy 106.68 52.07) (xy 106.68 50.8)
 		)
 		(stroke
@@ -6837,6 +6904,16 @@
 			(type default)
 		)
 		(uuid "0c9a273e-0f22-408e-9313-15b2cd883242")
+	)
+	(bus
+		(pts
+			(xy 31.75 132.08) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d84b0dc-d951-4673-8083-d13e9a4dbe4e")
 	)
 	(wire
 		(pts
@@ -6890,16 +6967,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 149.86) (xy 53.34 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1533ed2e-1c29-4d97-a6d6-78752bc9254e")
-	)
-	(wire
-		(pts
 			(xy 161.29 50.8) (xy 161.29 53.34)
 		)
 		(stroke
@@ -6940,16 +7007,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 62.23 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f15969e-8887-4485-96a5-e5afe64d8e80")
-	)
-	(wire
-		(pts
 			(xy 201.93 45.72) (xy 201.93 60.96)
 		)
 		(stroke
@@ -6967,16 +7024,6 @@
 			(type default)
 		)
 		(uuid "22f805f9-551d-4e8c-834d-24b73162d77d")
-	)
-	(wire
-		(pts
-			(xy 72.39 50.8) (xy 72.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250cadad-8765-40c5-b8e9-a8645e91d2a8")
 	)
 	(wire
 		(pts
@@ -7050,7 +7097,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 139.7) (xy 36.83 147.32)
+			(xy 36.83 132.08) (xy 36.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7170,6 +7217,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8073c6-613a-4bc7-9d82-31a8ff56a7c2")
+	)
+	(bus
+		(pts
+			(xy 36.83 168.91) (xy 82.55 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c88fe67-b8f6-4080-8964-08fda4f69ecd")
+	)
+	(wire
+		(pts
 			(xy 107.95 45.72) (xy 102.87 45.72)
 		)
 		(stroke
@@ -7197,16 +7264,6 @@
 			(type default)
 		)
 		(uuid "3e47774c-8dda-40a7-a28e-a733d405926c")
-	)
-	(wire
-		(pts
-			(xy 82.55 50.8) (xy 82.55 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f171ee4-4c20-45a6-bee6-742c3ab2f2d5")
 	)
 	(wire
 		(pts
@@ -7290,7 +7347,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 45.72 149.86)
+			(xy 45.72 147.32) (xy 45.72 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7306,7 +7363,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4c1e67ad-9915-4000-af9c-73e87962d9f5")
+		(uuid "4bef69b2-6217-43b2-9c83-a466c2068aec")
 	)
 	(wire
 		(pts
@@ -7317,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "5126fbb8-2c7f-40c8-b50f-67ebf79b1ede")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53880ef7-7253-4261-9118-6e038db23d17")
 	)
 	(wire
 		(pts
@@ -7620,6 +7687,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 135.89) (xy 102.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cd799a-0999-4ed6-8ddf-938b8ca6f70e")
+	)
+	(wire
+		(pts
 			(xy 125.73 50.8) (xy 130.81 50.8)
 		)
 		(stroke
@@ -7670,6 +7747,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 147.32) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8488c9e1-8a3c-4639-9a15-f4455fb81f6d")
+	)
+	(wire
+		(pts
 			(xy 95.25 40.64) (xy 95.25 43.18)
 		)
 		(stroke
@@ -7710,6 +7797,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 137.16) (xy 80.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5946ec-27ae-4d90-9878-5be9be8d8dd7")
+	)
+	(wire
+		(pts
 			(xy 102.87 109.22) (xy 96.52 109.22)
 		)
 		(stroke
@@ -7740,7 +7837,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 149.86) (xy 45.72 149.86)
+			(xy 39.37 149.86) (xy 48.26 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7770,6 +7867,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97124c22-59b7-4c83-a752-e4b10b20bed9")
+	)
+	(wire
+		(pts
 			(xy 43.18 153.67) (xy 43.18 144.78)
 		)
 		(stroke
@@ -7777,16 +7884,6 @@
 			(type default)
 		)
 		(uuid "97762c99-1117-4ae1-8065-dd6fecfd595c")
-	)
-	(wire
-		(pts
-			(xy 45.72 149.86) (xy 48.26 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "993b438a-72bb-4994-bec2-ba8e90cc0d7f")
 	)
 	(wire
 		(pts
@@ -7820,13 +7917,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 149.86) (xy 45.72 153.67)
+			(xy 66.04 134.62) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e6a9588-1ade-4bda-810a-aafa155d3cad")
+		(uuid "9c8aba0c-2303-4f20-aeda-b8d6bf0d0634")
+	)
+	(bus
+		(pts
+			(xy 36.83 147.32) (xy 36.83 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df5e6f8-6bc5-4c05-be1b-665d722367e2")
 	)
 	(wire
 		(pts
@@ -7910,6 +8017,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 133.35) (xy 110.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab78ad97-b1c4-403d-9647-9dbf1db93498")
+	)
+	(wire
+		(pts
 			(xy 171.45 52.07) (xy 171.45 53.34)
 		)
 		(stroke
@@ -7970,6 +8087,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba02d08e-20c1-4580-8391-5bf5f918353c")
+	)
+	(wire
+		(pts
 			(xy 181.61 71.12) (xy 181.61 69.85)
 		)
 		(stroke
@@ -7997,6 +8124,16 @@
 			(type default)
 		)
 		(uuid "bde667b0-240e-4191-9ae2-0ac5d0693cec")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 102.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf476078-4a1b-44bc-94bf-2dfb8a44b9d4")
 	)
 	(wire
 		(pts
@@ -8037,6 +8174,16 @@
 			(type default)
 		)
 		(uuid "c5eab9b0-9f2e-4a2f-a2b2-ea5dd192f6e7")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb353774-9250-4694-b090-0793517ca566")
 	)
 	(wire
 		(pts
@@ -8097,16 +8244,6 @@
 			(type default)
 		)
 		(uuid "d65ae425-d4cc-4052-addf-70075be4328e")
-	)
-	(bus
-		(pts
-			(xy 34.29 139.7) (xy 36.83 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d87df032-ad07-4fb7-9d02-08df52399d6c")
 	)
 	(wire
 		(pts
@@ -8190,6 +8327,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 134.62) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cf82a7-12d7-469b-bf9c-282f3c2ee7ce")
+	)
+	(wire
+		(pts
 			(xy 207.01 45.72) (xy 201.93 45.72)
 		)
 		(stroke
@@ -8207,6 +8354,16 @@
 			(type default)
 		)
 		(uuid "edbe7e2e-6b75-41bb-841a-e65d2a54d405")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 110.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef896ba4-e6e0-4d5e-9cfc-bbb31c66660f")
 	)
 	(wire
 		(pts
@@ -8288,6 +8445,26 @@
 		)
 		(uuid "17591554-d65c-4b99-983c-1f4c1edc0c14")
 	)
+	(label "RS232_TX"
+		(at 76.2 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f3e8670-46a7-47a9-8c8f-05d810b8bf03")
+	)
+	(label "RS232_RTS"
+		(at 41.91 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26141ed7-a4ad-4fae-be34-7ec0ff011c3a")
+	)
 	(label "3V3_FB"
 		(at 149.86 50.8 0)
 		(effects
@@ -8299,22 +8476,32 @@
 		(uuid "4ef20260-a24f-471a-a892-5e57647c3eb7")
 	)
 	(label "SCK"
-		(at 45.72 147.32 0)
+		(at 52.07 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62c1f35b-ceff-4a8c-b255-16f4ae80fc33")
+	)
+	(label "RS232_DTR"
+		(at 41.91 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "62c1f35b-ceff-4a8c-b255-16f4ae80fc33")
+		(uuid "77469e19-0faf-4a11-abb7-b5356ce3317b")
 	)
 	(label "MISO"
-		(at 45.72 142.24 0)
+		(at 52.07 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ae613165-ccc5-4f37-bc4b-34d7fc8156cc")
 	)
@@ -8328,29 +8515,39 @@
 		)
 		(uuid "ce5da624-c24a-426e-a7fe-ace8b9c39688")
 	)
-	(label "MOSI"
-		(at 45.72 144.78 0)
+	(label "RS232_RX"
+		(at 76.2 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "d5b0731a-1935-4f2d-8d02-461022357e31")
+	)
+	(label "MOSI"
+		(at 52.07 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "e185d8a3-b74d-41e0-8120-8dfc9a6785d4")
 	)
 	(label "~{CS}"
-		(at 45.72 149.86 0)
+		(at 52.07 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eb2d776d-b1df-4658-9efb-62fc648890e6")
 	)
 	(hierarchical_label "{PSU_CTRL}"
 		(shape input)
-		(at 34.29 139.7 180)
+		(at 31.75 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8457,7 +8654,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C125093"
 			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8715,7 +8912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "andium-resistors:R_255k_1%_0402")
+		(lib_id "andium-resistors:R_182k_1%_0402")
 		(at 95.25 43.18 270)
 		(unit 1)
 		(body_style 1)
@@ -8737,15 +8934,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "255k"
-			(at 96.774 46.99 90)
+		(property "Value" "182k"
+			(at 99.314 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
@@ -8759,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8966,7 @@
 				)
 			)
 		)
-		(property "Description" "R_255k_1%_0402"
+		(property "Description" "R_182k_1%_0402"
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8781,7 +8977,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-2553GLF"
+		(property "MPN" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +8988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" ""
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8814,7 +9010,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C11481"
 			(at 95.25 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8836,226 +9032,6 @@
 				)
 			)
 		)
-		(property "Alternatives 100W" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 120W" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 50W" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 75W" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Rating" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IMax" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ISat" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LED" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "POE" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Public" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Standard" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 95.25 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "05222bce-16ae-4c1b-bf7a-97464de56632")
 		)
@@ -9066,6 +9042,362 @@
 			(project "poe-nrf-sentry"
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/12dd5f2b-8401-4d49-8432-357c0966df51"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "andium-capacitors:CER_100nF_50V_X7R_0402")
+		(at 110.49 129.54 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10649484-7bae-4fef-ab9b-ee7cbbc70f12")
+		(property "Reference" "C91"
+			(at 109.22 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 113.792 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "andium-capacitors:C_0402_1005Metric"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CER_100nF_50V_X7R_0402"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R9BB104"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitute" "YES"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPN" "C131394"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "NO"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives 100W" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives 120W" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives 50W" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives 75W" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Rating" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IMax" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ISat" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LED" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "POE" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Public" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Standard" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4571ffaa-0135-412c-9744-c7b1ff46eafe")
+		)
+		(pin "2"
+			(uuid "4da909de-065d-4fa6-995b-43fc4ab9a95f")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/12dd5f2b-8401-4d49-8432-357c0966df51"
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -9833,7 +10165,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C25904"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10943,6 +11275,17 @@
 				)
 			)
 		)
+		(property "JLCPN" "C253507"
+			(at 207.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5e6bad3-005e-4bc2-ada5-fff2c91c125f")
 		)
@@ -11131,7 +11474,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C52923"
 			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12368,7 +12711,7 @@
 	)
 	(symbol
 		(lib_id "antmicro-lib:+3V3")
-		(at 66.04 147.32 270)
+		(at 69.85 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12378,7 +12721,7 @@
 		(dnp no)
 		(uuid "3a1573a5-ca7b-4267-868d-3438bff7ac0a")
 		(property "Reference" "#PWR0129"
-			(at 66.04 162.56 0)
+			(at 69.85 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12734,7 @@
 			)
 		)
 		(property "Value" "+3V3D"
-			(at 72.39 147.32 90)
+			(at 76.2 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12402,7 +12745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 162.56 0)
+			(at 62.23 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +12758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 162.56 0)
+			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 147.32 0)
+			(at 69.85 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12782,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 63.5 162.56 0)
+			(at 67.31 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12452,7 +12795,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 60.96 162.56 0)
+			(at 64.77 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,7 +13594,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C25530"
 			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13606,7 +13949,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14095,7 +14438,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14529,7 +14872,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15473,7 +15816,7 @@
 	)
 	(symbol
 		(lib_id "antmicro-lib:+3V3")
-		(at 66.04 149.86 270)
+		(at 69.85 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15483,7 +15826,7 @@
 		(dnp no)
 		(uuid "775c912d-4a65-4884-abbc-1bfb5175c7c9")
 		(property "Reference" "#PWR0130"
-			(at 66.04 165.1 0)
+			(at 69.85 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15496,7 +15839,7 @@
 			)
 		)
 		(property "Value" "+3V3D"
-			(at 72.39 149.86 90)
+			(at 76.2 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15507,7 +15850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 165.1 0)
+			(at 62.23 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15520,7 +15863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 165.1 0)
+			(at 59.69 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15533,7 +15876,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 149.86 0)
+			(at 69.85 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15544,7 +15887,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 63.5 165.1 0)
+			(at 67.31 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,7 +15900,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 60.96 165.1 0)
+			(at 64.77 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15680,7 +16023,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2162918"
 			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16221,7 +16564,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C3008507"
 			(at 96.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16901,7 +17244,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 181.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17394,7 +17737,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2162918"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17764,7 +18107,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C1849534"
 			(at 130.81 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18177,7 +18520,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 97.79 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -18568,6 +18911,17 @@
 				)
 			)
 		)
+		(property "JLCPN" "C87910"
+			(at 229.87 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c956bebe-7b80-4ede-aef7-97e565e6431b")
 		)
@@ -18662,7 +19016,7 @@
 	)
 	(symbol
 		(lib_id "antmicro-lib:GND")
-		(at 82.55 49.53 0)
+		(at 82.55 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18672,7 +19026,7 @@
 		(dnp no)
 		(uuid "9b0db2f9-ca31-4fcf-b023-4dfc621eb3e1")
 		(property "Reference" "#PWR0115"
-			(at 82.55 55.88 0)
+			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18684,7 +19038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 53.34 0)
+			(at 82.55 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18695,7 +19049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 57.15 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18708,7 +19062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 62.23 0)
+			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18721,7 +19075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 49.53 0)
+			(at 82.55 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18732,7 +19086,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 91.44 57.15 0)
+			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18745,7 +19099,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 91.44 59.69 0)
+			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18905,7 +19259,7 @@
 	)
 	(symbol
 		(lib_id "antmicro-lib:GND")
-		(at 72.39 49.53 0)
+		(at 72.39 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18915,7 +19269,7 @@
 		(dnp no)
 		(uuid "9dd38a51-f7cb-4d82-81a9-3c42821ce3e9")
 		(property "Reference" "#PWR0113"
-			(at 72.39 55.88 0)
+			(at 72.39 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18927,7 +19281,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 53.34 0)
+			(at 72.39 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18938,7 +19292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 57.15 0)
+			(at 81.28 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18951,7 +19305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 62.23 0)
+			(at 81.28 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18964,7 +19318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 49.53 0)
+			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18975,7 +19329,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 81.28 57.15 0)
+			(at 81.28 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18988,7 +19342,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 81.28 59.69 0)
+			(at 81.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19310,7 +19664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "andium-resistors:R_1k_1%_0402")
+		(lib_id "andium-resistors:R_1k02_1%_0402")
 		(at 218.44 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -19331,8 +19685,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 221.234 56.642 90)
+		(property "Value" "1k02"
+			(at 222.25 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19352,7 +19706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" ""
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19363,7 +19717,7 @@
 				)
 			)
 		)
-		(property "Description" "R_1k_1%_0402"
+		(property "Description" "R_1k02_1%_0402"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19374,7 +19728,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19385,7 +19739,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
+		(property "MPN" "RC0402FR-071K02L"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19407,7 +19761,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C163485"
 			(at 218.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19420,226 +19774,6 @@
 		)
 		(property "Verified" "NO"
 			(at 218.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 100W" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 120W" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 50W" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives 75W" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Rating" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IMax" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ISat" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LED" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "POE" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Public" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Size" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Standard" ""
-			(at 218.44 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 218.44 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20213,7 +20347,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C3008507"
 			(at 90.17 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20575,7 +20709,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C26989"
 			(at 171.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21038,7 +21172,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C19191693"
 			(at 163.83 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -21730,7 +21864,7 @@
 	)
 	(symbol
 		(lib_id "antmicro-lib:GND")
-		(at 62.23 49.53 0)
+		(at 62.23 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21740,7 +21874,7 @@
 		(dnp no)
 		(uuid "d2629812-a6d9-46dd-ad0c-79a39eadb624")
 		(property "Reference" "#PWR0112"
-			(at 62.23 55.88 0)
+			(at 62.23 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21752,7 +21886,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 53.34 0)
+			(at 62.23 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21763,7 +21897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 57.15 0)
+			(at 71.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21776,7 +21910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 62.23 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21789,7 +21923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 49.53 0)
+			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21800,7 +21934,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 71.12 57.15 0)
+			(at 71.12 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21813,7 +21947,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 71.12 59.69 0)
+			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22015,7 +22149,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 90.17 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -22151,7 +22285,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22586,7 +22720,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C2762594"
 			(at 62.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -23688,7 +23822,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C57105"
 			(at 171.45 59.69 0)
 			(hide yes)
 			(show_name no)

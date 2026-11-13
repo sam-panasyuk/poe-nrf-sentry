@@ -12,6 +12,192 @@
 		(comment 1 "www.andium.com")
 	)
 	(lib_symbols
+		(symbol "andium-capacitors:CER_100nF_100V_X7R_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.016 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF 100V X7R"
+				(at 1.016 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "andium-capacitors:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CER_100nF_100V_X7R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GRM188R72A104KA35D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitute" "YES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPN" "C113803"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CER_100nF_100V_X7R_0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CER_100nF_100V_X7R_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "andium-capacitors:CER_100nF_50V_X7R_0402"
 			(pin_numbers
 				(hide yes)
@@ -2180,6 +2366,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "andium-resistors:R_976k_1%_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "976k"
+				(at 2.54 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "R_976k_1%_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Substitute" "YES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Verified" "NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_976k_1%_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_976k_1%_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicro-lib:+3V3"
 			(power global)
 			(pin_numbers
@@ -2342,13 +2701,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:Earth"
+		(symbol "antmicro-lib:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2357,38 +2715,57 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2399,32 +2776,36 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
-			(symbol "Earth_0_1"
+			(symbol "GND_1_1"
 				(polyline
 					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2434,48 +2815,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2608,12 +2951,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 139.7 123.19)
+		(at 107.95 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f18d9929-985d-4a4c-8ac5-e84798ceabbf")
+		(uuid "2af8cb8e-35e1-4beb-a150-edd393ccf259")
+	)
+	(junction
+		(at 137.16 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c5f85e2-712e-48e3-aff5-4da1f32de06b")
+	)
+	(junction
+		(at 115.57 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b6e094-e274-4b12-9679-841d522ecc60")
+	)
+	(junction
+		(at 115.57 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e339ffed-3ebd-48cc-a4c0-470da7ac769d")
+	)
+	(junction
+		(at 107.95 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f49b251c-3b03-469d-acd3-df688d9e0d77")
 	)
 	(junction
 		(at 88.9 48.26)
@@ -2735,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 125.73) (xy 107.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d667c7-2212-4da5-8804-12bf5cbd9b8d")
+	)
+	(wire
+		(pts
 			(xy 176.53 95.25) (xy 176.53 99.06)
 		)
 		(stroke
@@ -2763,6 +3327,16 @@
 		)
 		(uuid "359e08ef-2941-49f1-873c-0d107bd04b2f")
 	)
+	(wire
+		(pts
+			(xy 139.7 123.19) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e621cba-d9b7-4b30-8466-1272bb90ad96")
+	)
 	(bus
 		(pts
 			(xy 88.9 48.26) (xy 198.12 48.26)
@@ -2775,6 +3349,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445af911-d1a6-4c30-a61d-2e0e5fad81b6")
+	)
+	(wire
+		(pts
 			(xy 176.53 78.74) (xy 195.58 78.74)
 		)
 		(stroke
@@ -2782,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "4f877dac-ffd7-4bec-9a43-b3d3106fc53c")
+	)
+	(wire
+		(pts
+			(xy 137.16 124.46) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510d8e77-fbc3-491d-833e-2a332efc9bb7")
 	)
 	(wire
 		(pts
@@ -2815,13 +3409,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 124.46) (xy 139.7 123.19)
+			(xy 107.95 144.78) (xy 107.95 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d71293e-4500-4e5a-87cc-afe9f2b00d51")
+		(uuid "666fa4da-adf0-4e07-91bd-06b7841276ac")
 	)
 	(wire
 		(pts
@@ -2865,33 +3459,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 139.7 121.92)
+			(xy 114.3 125.73) (xy 115.57 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8455f25b-713f-4d32-bced-71b4a8a5021a")
-	)
-	(wire
-		(pts
-			(xy 137.16 123.19) (xy 139.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a875da-a737-407b-bfdc-33e084b1918d")
-	)
-	(wire
-		(pts
-			(xy 137.16 121.92) (xy 137.16 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860621b8-cb95-426d-9c7c-ce025357e8e0")
+		(uuid "81c8e9c4-843a-4a30-977f-d0527dccbefc")
 	)
 	(wire
 		(pts
@@ -2945,6 +3519,46 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 125.73) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb731443-152d-4608-99d1-862b7f65157e")
+	)
+	(wire
+		(pts
+			(xy 137.16 123.19) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fde2f1-5e7e-42b5-965d-87949e64e116")
+	)
+	(wire
+		(pts
+			(xy 115.57 144.78) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d216ad2c-38c2-4bd9-b84b-b38d50ef8a49")
+	)
+	(wire
+		(pts
+			(xy 114.3 144.78) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2eb7f9-5c96-4b34-b17f-ed9dadd8fb90")
+	)
+	(wire
+		(pts
 			(xy 91.44 74.93) (xy 128.27 74.93)
 		)
 		(stroke
@@ -2955,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 125.73) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6db84e1-6856-4630-9036-09c7837169ec")
+	)
+	(wire
+		(pts
 			(xy 91.44 67.31) (xy 128.27 67.31)
 		)
 		(stroke
@@ -2962,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "f7bda557-485f-407e-87c8-5efc0579d2b3")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dcea2c-41ff-480b-970d-19c9b4d9925b")
 	)
 	(wire
 		(pts
@@ -3065,6 +3699,129 @@
 		(uuid "e2b72e82-aff3-4b6e-b8e4-c852eb97bfe0")
 	)
 	(symbol
+		(lib_id "antmicro-lib:GND")
+		(at 107.95 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1011b06a-17bc-45f4-bd3c-5a58aa0c915a")
+		(property "Reference" "#PWR0176"
+			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.076 121.412 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 97.79 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c7898d1d-1212-4d4b-9547-b12a898885e6")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicro-lib:+3V3")
 		(at 185.42 72.39 270)
 		(unit 1)
@@ -3163,7 +3920,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "724a027c-f5a0-4f55-b544-dbba8bf67b85")
+			(uuid "f06ead4c-7965-42ff-99c3-83d93a3ced30")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3171,8 +3928,16 @@
 					(reference "#PWR068")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0205")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -3244,7 +4009,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "348b2362-1a5d-4643-b59e-f05ccad328ab")
+			(uuid "d7b07616-72ab-49cd-941a-8bedbb2760bc")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3252,8 +4017,16 @@
 					(reference "#PWR066")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0199")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -3380,10 +4153,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "63ced526-d9ee-49b2-975a-38571880c747")
+			(uuid "cab0e909-0bfc-4a1c-a93f-8bd9ccfc2a3b")
 		)
 		(pin "1"
-			(uuid "222d784d-b8d6-48e4-a73c-9d54a76fe199")
+			(uuid "1342829e-c86c-458a-add1-7b6ff6ff9c65")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3391,8 +4164,16 @@
 					(reference "R32")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "R69")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "R33")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -3497,7 +4278,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d008dd75-daa2-4e02-a64e-6bdb00e6e872")
+			(uuid "dd391c37-7be8-4689-8964-56eba1c7de0a")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3505,8 +4286,139 @@
 					(reference "#PWR077")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0202")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicro-lib:GND")
+		(at 107.95 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54fc9c7e-689d-4eb3-985f-073170dfb957")
+		(property "Reference" "#PWR0180"
+			(at 105.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.076 140.462 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 100.33 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7dbeb43b-ce6f-4ede-bee4-7fe40f0aa87e")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -3611,7 +4523,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3df09c0-db1a-4691-8955-0315401c9bff")
+			(uuid "e095c15c-8e10-424b-a6b3-fd121a0511b5")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3619,8 +4531,162 @@
 					(reference "#PWR069")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0206")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "andium-resistors:R_976k_1%_0402")
+		(at 109.22 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "737ca59b-8028-4dea-9948-2df3bb424a30")
+		(property "Reference" "R59"
+			(at 111.76 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "976k"
+			(at 112.014 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "R_976k_1%_0402"
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitute" "YES"
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPN" "C26083"
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "NO"
+			(at 109.22 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50637096-f911-40df-a0b7-40583d0c9e93")
+		)
+		(pin "2"
+			(uuid "a0ce9f44-9e1d-4f04-b362-d6779e206099")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3748,10 +4814,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7eb0368-f7d1-468e-aaec-f1ab031cdce4")
+			(uuid "efb19bb5-30fb-4377-a821-4f2397a76b1a")
 		)
 		(pin "1"
-			(uuid "2b1f71a1-e6ef-4741-80ee-c0925a614f6c")
+			(uuid "048d7a68-3cd3-4ca7-8d44-b4a30f624b7e")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3759,8 +4825,16 @@
 					(reference "C32")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "C108")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "C35")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -3865,7 +4939,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "14effb04-f3e2-4309-97c6-a67da80766dd")
+			(uuid "985804d9-672d-4530-be2d-066466630ef5")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -3873,8 +4947,162 @@
 					(reference "#PWR070")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0201")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "andium-capacitors:CER_100nF_100V_X7R_0603")
+		(at 111.76 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bf22d1d-e9f6-4f7b-beca-2111d93514fb")
+		(property "Reference" "C98"
+			(at 111.506 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 100V X7R"
+			(at 112.268 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "andium-capacitors:C_0603_1608Metric"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CER_100nF_100V_X7R_0603"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitute" "YES"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPN" "C113803"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "NO"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c214068e-22c7-4341-b172-7e760d847273")
+		)
+		(pin "1"
+			(uuid "77652805-9f7b-4293-babf-1e567f250ba7")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "C98")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "C105")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "C99")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -4001,10 +5229,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "596b2e54-0355-4118-b665-f38d78ef3a9b")
+			(uuid "bee2e924-e465-4b98-9836-bf5c61c08d10")
 		)
 		(pin "1"
-			(uuid "7a80430e-226f-465a-9a6e-b1e6cd4dbfa6")
+			(uuid "a0dbc78e-f3a0-45e6-8f1f-23b7c4ea0f32")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -4012,16 +5240,24 @@
 					(reference "R31")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "R70")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "R34")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "R66")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 139.7 124.46 0)
+		(lib_id "andium-capacitors:CER_100nF_100V_X7R_0603")
+		(at 111.76 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4029,9 +5265,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8f555b11-b827-48c4-9111-79e8592e1aa8")
-		(property "Reference" "#PWR064"
-			(at 139.7 130.81 0)
+		(uuid "a318ff95-19a0-4593-ad43-1f431af619b8")
+		(property "Reference" "C100"
+			(at 111.506 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 100V X7R"
+			(at 112.268 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "andium-capacitors:C_0603_1608Metric"
+			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,8 +5297,9 @@
 				)
 			)
 		)
-		(property "Value" "CHGND"
-			(at 139.446 128.27 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+			(at 111.76 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4051,8 +5308,132 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 124.46 0)
+		(property "Description" "CER_100nF_100V_X7R_0603"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitute" "YES"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPN" "C113803"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "NO"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9357ccca-99a3-4ad1-834b-9079b1561a94")
+		)
+		(pin "1"
+			(uuid "ff7be772-7c0e-4840-ae5b-b23259a39b6f")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "C100")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "C106")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "C101")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "andium-resistors:R_976k_1%_0402")
+		(at 109.22 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac966ebd-b693-4924-bdb8-0728f49fed74")
+		(property "Reference" "R61"
+			(at 111.76 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "976k"
+			(at 112.014 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,7 +5444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 124.46 0)
+			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,8 +5454,63 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 139.7 124.46 0)
+		(property "Description" "R_976k_1%_0402"
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitute" "YES"
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPN" "C26083"
+			(at 109.22 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Verified" "NO"
+			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,16 +5521,116 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad4d634b-4b56-4b89-bf66-307c04fb41b1")
+			(uuid "1d2eb51e-fd72-4e4c-8b30-628371e0dd7c")
+		)
+		(pin "2"
+			(uuid "1993bb11-a7cf-438b-bd02-c9309be20349")
 		)
 		(instances
 			(project "poe-nrf-sentry"
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
-					(reference "#PWR064")
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
-					(reference "#PWR073")
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 115.57 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc234593-9f0a-4e0f-824b-cc2717352e98")
+		(property "Reference" "#PWR0177"
+			(at 120.65 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHGND"
+			(at 121.92 120.396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 115.57 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b5b18f3-0a6e-4b31-870a-61191c63f2b6")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -4222,10 +5758,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7822ea4b-daab-43bd-97b2-b9fbfadffe3e")
+			(uuid "0e3e8ff5-7383-47a7-8484-cc949ede9228")
 		)
 		(pin "1"
-			(uuid "8e27ae38-8130-4eb8-a9e9-b8c15e928d05")
+			(uuid "232b5684-023b-4500-a213-5e69cdce013a")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -4233,8 +5769,16 @@
 					(reference "C33")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "C107")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "C34")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -4338,7 +5882,7 @@
 				)
 			)
 		)
-		(property "JLCPN" ""
+		(property "JLCPN" "C3180007"
 			(at 157.48 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4361,55 +5905,55 @@
 			)
 		)
 		(pin "4"
-			(uuid "e2ebb26b-836e-4464-8dfd-87444e11e4e8")
+			(uuid "7d6979db-1f9f-4ac7-9881-d4802b9a8f89")
 		)
 		(pin "5"
-			(uuid "e34216c3-35e8-43c3-b83f-91d376f4d1e4")
+			(uuid "185c8d3b-360f-433f-a7ae-4ce38e0984ee")
 		)
 		(pin "6"
-			(uuid "50bb3748-720a-4b6d-871f-79dc335a823c")
+			(uuid "b7720b53-3985-4c5b-b500-9e207820b424")
 		)
 		(pin "10"
-			(uuid "7765be2d-a14d-4da5-adb3-b39eb369112a")
+			(uuid "3e064aff-4fd0-468c-b88a-9da8472a49c0")
 		)
 		(pin "11"
-			(uuid "1ce2e4e4-db91-47e8-b807-77011deda373")
+			(uuid "43d41c32-2224-4693-9c88-ca40149e98e0")
 		)
 		(pin "12"
-			(uuid "c47ebd69-3c08-454d-b712-238af8c023b8")
+			(uuid "8ba5ff14-a8d0-4c38-a94c-32cfeca7e700")
 		)
 		(pin "13"
-			(uuid "01d86648-d901-458d-a8e9-08f0e2d2b8c5")
+			(uuid "221c7957-2f79-40fd-87d5-4f024563a16c")
 		)
 		(pin "14"
-			(uuid "c8db0dc8-263a-43aa-b489-c5c9df84809f")
+			(uuid "61437722-507d-431a-8544-1176b879e468")
 		)
 		(pin "15"
-			(uuid "7e8e68c9-08e1-47d4-9096-1eac03ee8fe1")
+			(uuid "3399b20e-7c7d-4109-91a4-f2f889ae595a")
 		)
 		(pin "16"
-			(uuid "16f85e30-2aa5-497f-9904-9ca1525f5bfa")
+			(uuid "c39916a5-769e-4707-bf6f-64c70380ccd6")
 		)
 		(pin "17"
-			(uuid "357cff88-48ee-4e4d-914e-520167d5b450")
+			(uuid "f4328f64-55f0-4568-81a0-b643fd92335c")
 		)
 		(pin "18"
-			(uuid "bbc1a278-4b32-4fe3-9685-614170b0eae6")
+			(uuid "71d7b73f-1751-4fc0-b888-7cdcdd776cd1")
 		)
 		(pin "19"
-			(uuid "bb3a1ed5-f767-4797-869f-1f52970659fa")
+			(uuid "923d5d9a-c2f8-4d4e-8ddd-96b6d953efd6")
 		)
 		(pin "20"
-			(uuid "755983c5-0f46-459c-85ed-2d9433b06a04")
+			(uuid "c49d14af-143e-4adb-bd11-43e4c16283a2")
 		)
 		(pin "S1"
-			(uuid "bde292d3-97e8-42b3-a8bd-924eba28cd3d")
+			(uuid "06752e42-b4c6-4064-82ec-b96fa3d7e730")
 		)
 		(pin "S2"
-			(uuid "8064a988-14c9-43a3-8a5d-e3eaa27e15cb")
+			(uuid "7d92fe9f-0e0d-453b-80e5-ca11a0ffe25b")
 		)
 		(pin "R7"
-			(uuid "b8c570a3-dc99-473a-b73a-13bdc2938bf1")
+			(uuid "e632bd60-1681-425d-9b12-de59a3add54b")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -4417,8 +5961,194 @@
 					(reference "J1")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "J9")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "J2")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 115.57 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edaefba1-73bc-41f1-aa7f-5ae442d76715")
+		(property "Reference" "#PWR0181"
+			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHGND"
+			(at 121.92 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 115.57 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "769c0932-9f84-4d85-a4ff-50729450cbb4")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 137.16 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc67f5f9-a3a7-478d-84d1-840fdc20f5dc")
+		(property "Reference" "#PWR0184"
+			(at 137.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHGND"
+			(at 137.414 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 137.16 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34d4efcc-15b8-4c7c-a8d3-fa6e6c683c00")
+		)
+		(instances
+			(project "poe-nrf-sentry"
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/37f55a68-c5c9-4c8b-a707-ffe73ee132e0"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -4491,7 +6221,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "de898238-88eb-4855-9043-35cb615e705f")
+			(uuid "1d156c42-77e4-4c74-8c65-ba7507696b4b")
 		)
 		(instances
 			(project "poe-nrf-sentry"
@@ -4499,8 +6229,16 @@
 					(reference "#PWR067")
 					(unit 1)
 				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/7d3e2626-dbb3-4aa4-8b4b-24724fecdd8d"
+					(reference "#PWR0198")
+					(unit 1)
+				)
 				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/95da3738-7cbf-43b5-ae64-fc4d1983b454"
 					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/b1cff413-89c4-4f13-9638-ac703f47b9c7/b55902c4-fa29-49bf-b8ba-ad7ab4b60e40"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
